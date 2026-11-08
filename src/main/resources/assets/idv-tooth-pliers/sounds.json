@@ -1,0 +1,26 @@
+{
+  "silent_tp": {
+    "sounds": ["idv-tooth-pliers:silent_tp"]
+  },
+  "uv_on": {
+    "sounds": ["idv-tooth-pliers:uv_on"]
+  },
+  "uv_off": {
+    "sounds": ["idv-tooth-pliers:uv_off"]
+  },
+  "preview_mode": {
+    "sounds": ["idv-tooth-pliers:preview_mode"]
+  },
+  "release_area": {
+    "sounds": ["idv-tooth-pliers:release_area"]
+  },
+  "attack": {
+    "sounds": ["idv-tooth-pliers:attack"]
+  },
+  "hit": {
+    "sounds": ["idv-tooth-pliers:hit"]
+  },
+  "switch_lens": {
+    "sounds": ["idv-tooth-pliers:switch_lens"]
+  }
+}

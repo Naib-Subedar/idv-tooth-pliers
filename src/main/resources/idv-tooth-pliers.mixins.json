@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.joseph.toothpliers.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EnchantmentMixin",
+		"MobAttackSlowMixin",
+		"ProjectileSlowMixin"
+	],
+	"client": [
+		"MinecraftClientMixin",
+		"KeyboardMixin",
+		"MouseMixin",
+		"EntityLookMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

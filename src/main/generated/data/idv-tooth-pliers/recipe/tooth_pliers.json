@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " IA",
+    "INI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "idv-tooth-pliers:tooth_pliers"
+  }
+}

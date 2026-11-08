@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "idv-tooth-pliers",
+	"version": "${version}",
+	"name": "IDV tooth pliers",
+	"description": "Identity V Dentist Skill Transplant Test",
+	"authors": [
+		"Joseph"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/640320953",
+		"sources": "https://github.com/joseph-0730/idv-tooth-pliers"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/idv-tooth-pliers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.joseph.toothpliers.ToothPliersMod"
+		],
+		"client": [
+			"com.joseph.toothpliers.ToothPliersClient"
+		],
+		"fabric-datagen": [
+			"com.joseph.toothpliers.datagen.ToothPliersDatagen"
+		]
+	},
+	"mixins": [
+		"idv-tooth-pliers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
